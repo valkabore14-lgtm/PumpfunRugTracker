@@ -1,0 +1,12 @@
+import os
+
+HELIUS_API_KEY = os.getenv("HELIUS_API_KEY", "")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+
+PUMPFUN_PROGRAM_ID = os.getenv("PUMPFUN_PROGRAM_ID", "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P")
+SPL_TOKEN_PROGRAM_ID = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+
+MAX_HOPS = int(os.getenv("MAX_HOPS", "3"))
+DESC_TTL_HOURS = int(os.getenv("DESC_TTL_HOURS", "48"))
+MIN_SOL_FUNDING = float(os.getenv("MIN_SOL_FUNDING", "0.2"))
